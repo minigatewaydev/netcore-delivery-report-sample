@@ -27,6 +27,8 @@ Status: OK
 ErrCode: 
 MsgId: ID09218309123
 ```
+Picture sample:
+
 
 ## How delivery report system work
 
