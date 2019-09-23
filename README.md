@@ -1,4 +1,4 @@
-# Sample of delivery report system (.NETCore)
+# Sample of delivery report API endpoint (.NETCore)
 
 This sample constructed with .NETCore 3.0 using VSCode. To run this sample on VSCode:
 
