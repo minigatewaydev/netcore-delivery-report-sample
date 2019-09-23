@@ -6,7 +6,7 @@ This sample constructed with .NETCore 3.0 using VSCode. To run this sample on VS
 - Restore all dependencies, use <code>dotnet restore</code>
 - Run app by using <code>dotnet run</code>
 - By default, this app is using port 5011, but you may change it to any available port by going to <code>Program.cs</code> file 
-- Use __Postman, Insomnia__ or any API test tool, then navigate to <code>http://localhost:5011</code> (or your custom port number), use the POST request, and add these to the JSON request body:
+- Use __Postman, Insomnia__ or any API test tool, then navigate to <code>http://localhost:5011/dlr/save-json</code> (or your custom port number), use the POST request, and add these to the JSON request body:
 
 ```
 {
