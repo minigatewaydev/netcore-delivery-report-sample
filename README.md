@@ -27,8 +27,9 @@ Status: OK
 ErrCode: 
 MsgId: ID09218309123
 ```
-Picture sample:
+Preview:
 
+![alt text](https://github.com/minigatewaydev/netcore-delivery-report-sample/blob/master/md-imgs/g1.png?raw=true)
 
 ## How delivery report system work
 
