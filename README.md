@@ -35,8 +35,8 @@ Preview:
 
 ![DR flow](https://github.com/minigatewaydev/netcore-delivery-report-sample/blob/master/md-imgs/DR%20flow.png?raw=true)
 
-In a production environment, this API endpoint should be hosted on a server that are accessible by our HTTP Server. An accessible URL pointed to this system (let say it's called http://cust-host.com/dlr) should be assigned as __"gw-dlr-url"__ before sending SMS to our HTTP Server. 
+In a production environment, this API endpoint should be hosted on a server that are accessible by our gateway. An accessible URL pointed to this system (let say it's called http://cust-host.com/dlr) should be assigned as __"gw-dlr-url"__ before sending SMS to our HTTP server. 
 
-When the delivery report for the SMS is ready, our HTTP Server will act as a HTTP Client & send the delivery report data by submitting the JSON request body just like the sample above (HTTP POST), to the specified DLR-URL that you assigned before. Your hosted API endpoint (this system) should be able to read all 5 parameter & deserialize it into .NET object (in this case of example).
+When the delivery report for the SMS is ready, our gateway will act as a HTTP client & send the delivery report data by submitting the JSON request body just like the sample above (HTTP POST), to the specified DLR-URL that you assigned before. Your hosted API endpoint (this system) should be able to read all 5 parameter & deserialize it into .NET object (in this case of example).
 
-When our HTTP Server is successfully send the data, your web server should automatically returned status code 200 (OK) to us indicating that the delivery report process is success.
+When our gateway is successfully send the data, your web server should automatically returned status code 200 (OK) to us indicating that the delivery report process is success.
