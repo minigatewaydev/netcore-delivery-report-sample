@@ -29,9 +29,11 @@ MsgId: ID09218309123
 ```
 Preview:
 
-![alt text](https://github.com/minigatewaydev/netcore-delivery-report-sample/blob/master/md-imgs/g1.png?raw=true)
+![preview](https://github.com/minigatewaydev/netcore-delivery-report-sample/blob/master/md-imgs/g1.png?raw=true)
 
 ## How delivery report system work
+
+![DR flow](https://github.com/minigatewaydev/netcore-delivery-report-sample/blob/master/md-imgs/DR%20flow.png?raw=true)
 
 In a production environment, this API endpoint should be hosted on a server that are accessible by our HTTP Server. An accessible URL pointed to this system (let say it's called http://cust-host.com/dlr) should be assigned as __"gw-dlr-url"__ before sending SMS to our HTTP Server. 
 
